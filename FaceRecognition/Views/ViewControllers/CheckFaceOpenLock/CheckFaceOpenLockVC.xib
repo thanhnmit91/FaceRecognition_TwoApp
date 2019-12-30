@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CheckFaceOpenLockVC" customModule="FaceRecognitionLocker" customModuleProvider="target">
+            <connections>
+                <outlet property="imgPreview" destination="Mtk-Ss-Psv" id="HaF-Dh-Rdh"/>
+                <outlet property="previewView" destination="FXw-Wy-ULo" id="ocS-th-HLT"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FXw-Wy-ULo">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                </view>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Mtk-Ss-Psv">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="FXw-Wy-ULo" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="3C0-as-4iA"/>
+                <constraint firstItem="FXw-Wy-ULo" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="Cy1-wx-zZx"/>
+                <constraint firstItem="Mtk-Ss-Psv" firstAttribute="top" secondItem="FXw-Wy-ULo" secondAttribute="top" id="D9v-dw-B7a"/>
+                <constraint firstItem="FXw-Wy-ULo" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="LOh-B5-uci"/>
+                <constraint firstItem="Mtk-Ss-Psv" firstAttribute="leading" secondItem="FXw-Wy-ULo" secondAttribute="leading" id="Szh-oF-oDG"/>
+                <constraint firstAttribute="bottom" secondItem="FXw-Wy-ULo" secondAttribute="bottom" id="XJS-O0-J8I"/>
+                <constraint firstItem="Mtk-Ss-Psv" firstAttribute="bottom" secondItem="FXw-Wy-ULo" secondAttribute="bottom" id="Z4X-bt-D62"/>
+                <constraint firstItem="Mtk-Ss-Psv" firstAttribute="trailing" secondItem="FXw-Wy-ULo" secondAttribute="trailing" id="rZP-kc-SSy"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="139" y="126"/>
+        </view>
+    </objects>
+</document>

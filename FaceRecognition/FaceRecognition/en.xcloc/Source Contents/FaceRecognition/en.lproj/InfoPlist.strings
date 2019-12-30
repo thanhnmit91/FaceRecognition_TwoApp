@@ -1,0 +1,6 @@
+/* Bundle name */
+"CFBundleName" = "FaceRecognition";
+/* Privacy - Camera Usage Description */
+"NSCameraUsageDescription" = "This app wants to take pictures.";
+/* Privacy - Photo Library Usage Description */
+"NSPhotoLibraryUsageDescription" = "This app wants to use your photos.";

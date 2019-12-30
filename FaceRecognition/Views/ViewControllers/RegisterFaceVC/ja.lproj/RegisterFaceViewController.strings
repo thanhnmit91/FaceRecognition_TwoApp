@@ -1,0 +1,9 @@
+/* Class = "UIButton"; normalTitle = "Register    登録"; ObjectID = "aOg-Su-KH0"; */
+"aOg-Su-KH0.normalTitle" = "Register    登録";
+
+/* Class = "UIButton"; normalTitle = "< Back"; ObjectID = "eRa-tn-WeL"; */
+"eRa-tn-WeL.normalTitle" = "< Back";
+
+/* Class = "UITextField"; placeholder = "Full name (氏名)"; ObjectID = "LQe-pY-cPv"; */
+"LQe-pY-cPv.placeholder" = "Full name (氏名)";
+

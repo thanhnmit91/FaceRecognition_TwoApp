@@ -7,7 +7,25 @@
 		<key>FaceRecognition.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>16</integer>
+		</dict>
+		<key>FaceRecognitionLocker.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>17</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>C37861BE238BB01900E7A735</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C383AEE9238D1B150007D323</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

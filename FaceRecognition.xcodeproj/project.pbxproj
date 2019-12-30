@@ -3,27 +3,113 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BFD54D71640CA24020E55C83 /* Pods_FaceRecognition.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F54A8F9C423D43AAC00E4E53 /* Pods_FaceRecognition.framework */; };
 		C37861C3238BB01900E7A735 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37861C2238BB01900E7A735 /* AppDelegate.swift */; };
-		C37861C5238BB01900E7A735 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37861C4238BB01900E7A735 /* SceneDelegate.swift */; };
 		C37861C7238BB01900E7A735 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37861C6238BB01900E7A735 /* ViewController.swift */; };
-		C37861CA238BB01900E7A735 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C37861C8238BB01900E7A735 /* Main.storyboard */; };
 		C37861CC238BB01B00E7A735 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C37861CB238BB01B00E7A735 /* Assets.xcassets */; };
-		C37861CF238BB01B00E7A735 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C37861CD238BB01B00E7A735 /* LaunchScreen.storyboard */; };
+		C37861D8238BB16100E7A735 /* RegisterFaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37861D6238BB16100E7A735 /* RegisterFaceViewController.swift */; };
+		C37861DC238BB1BC00E7A735 /* Extension+UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37861DB238BB1BC00E7A735 /* Extension+UIImage.swift */; };
+		C37861E0238BB23800E7A735 /* ServiceConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37861DF238BB23800E7A735 /* ServiceConfig.swift */; };
+		C37861E2238BB25E00E7A735 /* ServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37861E1238BB25E00E7A735 /* ServiceManager.swift */; };
+		C37861EA238BBA5600E7A735 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37861E9238BBA5600E7A735 /* ImagePicker.swift */; };
+		C37861F0238BD23600E7A735 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37861EE238BD23600E7A735 /* LoginVC.swift */; };
+		C37861F4238BD24E00E7A735 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37861F3238BD24E00E7A735 /* BaseViewController.swift */; };
+		C37861F8238BD2F000E7A735 /* ListUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37861F6238BD2F000E7A735 /* ListUserViewController.swift */; };
+		C3786212238BE4D500E7A735 /* RegisterFaceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3786211238BE4D500E7A735 /* RegisterFaceViewController.xib */; };
+		C3786216238BE4E700E7A735 /* LoginVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3786215238BE4E700E7A735 /* LoginVC.xib */; };
+		C3786218238BE4F500E7A735 /* ListUserViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3786217238BE4F500E7A735 /* ListUserViewController.xib */; };
+		C378621A238BE4FD00E7A735 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3786219238BE4FD00E7A735 /* LaunchScreen.storyboard */; };
+		C378621B238BE54300E7A735 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C378621D238BE54300E7A735 /* Main.storyboard */; };
+		C383AEC9238CC5F40007D323 /* Extension+UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C383AEC8238CC5F40007D323 /* Extension+UIViewController.swift */; };
+		C383AECE238CCC7E0007D323 /* ListUserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C383AECD238CCC7E0007D323 /* ListUserViewModel.swift */; };
+		C383AED2238CCE500007D323 /* UserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C383AED0238CCE500007D323 /* UserTableViewCell.swift */; };
+		C383AED3238CCE500007D323 /* UserTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C383AED1238CCE500007D323 /* UserTableViewCell.xib */; };
+		C383AED7238CD04E0007D323 /* Extension+UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C383AED6238CD04E0007D323 /* Extension+UITableView.swift */; };
+		C383AEDB238CD5100007D323 /* en.plist in Resources */ = {isa = PBXBuildFile; fileRef = C383AEDA238CD5100007D323 /* en.plist */; };
+		C383AEDD238CD5FC0007D323 /* ja.plist in Resources */ = {isa = PBXBuildFile; fileRef = C383AEDC238CD5FC0007D323 /* ja.plist */; };
+		C383AEE1238CD6820007D323 /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C383AEE0238CD6820007D323 /* BaseModel.swift */; };
+		C383AEE4238CD6BE0007D323 /* GetLanguageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C383AEE3238CD6BE0007D323 /* GetLanguageModel.swift */; };
+		C383AEE8238CFD980007D323 /* WifiInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C383AEE7238CFD980007D323 /* WifiInfo.swift */; };
+		C383AEEC238D1B150007D323 /* WifiInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C383AEE7238CFD980007D323 /* WifiInfo.swift */; };
+		C383AEED238D1B150007D323 /* RegisterFaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37861D6238BB16100E7A735 /* RegisterFaceViewController.swift */; };
+		C383AEEE238D1B150007D323 /* Extension+UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C383AED6238CD04E0007D323 /* Extension+UITableView.swift */; };
+		C383AEEF238D1B150007D323 /* ServiceConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37861DF238BB23800E7A735 /* ServiceConfig.swift */; };
+		C383AEF0238D1B150007D323 /* UserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C383AED0238CCE500007D323 /* UserTableViewCell.swift */; };
+		C383AEF1238D1B150007D323 /* ListUserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C383AECD238CCC7E0007D323 /* ListUserViewModel.swift */; };
+		C383AEF2238D1B150007D323 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37861EE238BD23600E7A735 /* LoginVC.swift */; };
+		C383AEF3238D1B150007D323 /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C383AEE0238CD6820007D323 /* BaseModel.swift */; };
+		C383AEF4238D1B150007D323 /* Extension+UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37861DB238BB1BC00E7A735 /* Extension+UIImage.swift */; };
+		C383AEF5238D1B150007D323 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37861E9238BBA5600E7A735 /* ImagePicker.swift */; };
+		C383AEF6238D1B150007D323 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37861F3238BD24E00E7A735 /* BaseViewController.swift */; };
+		C383AEF7238D1B150007D323 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37861C6238BB01900E7A735 /* ViewController.swift */; };
+		C383AEF8238D1B150007D323 /* Extension+UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C383AEC8238CC5F40007D323 /* Extension+UIViewController.swift */; };
+		C383AEF9238D1B150007D323 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37861C2238BB01900E7A735 /* AppDelegate.swift */; };
+		C383AEFA238D1B150007D323 /* ServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37861E1238BB25E00E7A735 /* ServiceManager.swift */; };
+		C383AEFB238D1B150007D323 /* GetLanguageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C383AEE3238CD6BE0007D323 /* GetLanguageModel.swift */; };
+		C383AEFE238D1B150007D323 /* Pods_FaceRecognition.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F54A8F9C423D43AAC00E4E53 /* Pods_FaceRecognition.framework */; };
+		C383AF00238D1B150007D323 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C378621D238BE54300E7A735 /* Main.storyboard */; };
+		C383AF01238D1B150007D323 /* RegisterFaceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3786211238BE4D500E7A735 /* RegisterFaceViewController.xib */; };
+		C383AF02238D1B150007D323 /* LoginVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3786215238BE4E700E7A735 /* LoginVC.xib */; };
+		C383AF03238D1B150007D323 /* UserTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C383AED1238CCE500007D323 /* UserTableViewCell.xib */; };
+		C383AF04238D1B150007D323 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3786219238BE4FD00E7A735 /* LaunchScreen.storyboard */; };
+		C383AF05238D1B150007D323 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C37861CB238BB01B00E7A735 /* Assets.xcassets */; };
+		C383AF07238D1B150007D323 /* en.plist in Resources */ = {isa = PBXBuildFile; fileRef = C383AEDA238CD5100007D323 /* en.plist */; };
+		C383AF08238D1B150007D323 /* ja.plist in Resources */ = {isa = PBXBuildFile; fileRef = C383AEDC238CD5FC0007D323 /* ja.plist */; };
+		C383AF14238D1F590007D323 /* CheckFaceOpenLockVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C383AF10238D1DB90007D323 /* CheckFaceOpenLockVC.swift */; };
+		C383AF15238D1F590007D323 /* CheckFaceOpenLockVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = C383AF11238D1DB90007D323 /* CheckFaceOpenLockVC.xib */; };
+		C383AF16238D1FA50007D323 /* CheckFaceOpenLockVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C383AF10238D1DB90007D323 /* CheckFaceOpenLockVC.swift */; };
+		C383AF18238D26E30007D323 /* Extension+UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C383AF17238D26E30007D323 /* Extension+UIImageView.swift */; };
+		C383AF19238D277F0007D323 /* Extension+UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C383AF17238D26E30007D323 /* Extension+UIImageView.swift */; };
+		C383AF1B238D2B640007D323 /* Extension+NSDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = C383AF1A238D2B640007D323 /* Extension+NSDictionary.swift */; };
+		C383AF1E238D2C6D0007D323 /* UploadImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C383AF1D238D2C6D0007D323 /* UploadImageModel.swift */; };
+		C383AF1F238D2C6D0007D323 /* UploadImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C383AF1D238D2C6D0007D323 /* UploadImageModel.swift */; };
+		C383AF20238D2F750007D323 /* Extension+NSDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = C383AF1A238D2B640007D323 /* Extension+NSDictionary.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		75B74A1151AC31A765A87FD3 /* Pods-FaceRecognition.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FaceRecognition.debug.xcconfig"; path = "Target Support Files/Pods-FaceRecognition/Pods-FaceRecognition.debug.xcconfig"; sourceTree = "<group>"; };
 		C37861BF238BB01900E7A735 /* FaceRecognition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FaceRecognition.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C37861C2238BB01900E7A735 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C37861C4238BB01900E7A735 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		C37861C6238BB01900E7A735 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C37861C9238BB01900E7A735 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C37861CB238BB01B00E7A735 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C37861CE238BB01B00E7A735 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C37861D0238BB01B00E7A735 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C37861D6238BB16100E7A735 /* RegisterFaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterFaceViewController.swift; sourceTree = "<group>"; };
+		C37861DB238BB1BC00E7A735 /* Extension+UIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UIImage.swift"; sourceTree = "<group>"; };
+		C37861DF238BB23800E7A735 /* ServiceConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceConfig.swift; sourceTree = "<group>"; };
+		C37861E1238BB25E00E7A735 /* ServiceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceManager.swift; sourceTree = "<group>"; };
+		C37861E9238BBA5600E7A735 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		C37861EE238BD23600E7A735 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		C37861F3238BD24E00E7A735 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		C37861F6238BD2F000E7A735 /* ListUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListUserViewController.swift; sourceTree = "<group>"; };
+		C3786211238BE4D500E7A735 /* RegisterFaceViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RegisterFaceViewController.xib; sourceTree = "<group>"; };
+		C3786215238BE4E700E7A735 /* LoginVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginVC.xib; sourceTree = "<group>"; };
+		C3786217238BE4F500E7A735 /* ListUserViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListUserViewController.xib; sourceTree = "<group>"; };
+		C3786219238BE4FD00E7A735 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C378621C238BE54300E7A735 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C383AEC8238CC5F40007D323 /* Extension+UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UIViewController.swift"; sourceTree = "<group>"; };
+		C383AECD238CCC7E0007D323 /* ListUserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListUserViewModel.swift; sourceTree = "<group>"; };
+		C383AED0238CCE500007D323 /* UserTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTableViewCell.swift; sourceTree = "<group>"; };
+		C383AED1238CCE500007D323 /* UserTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserTableViewCell.xib; sourceTree = "<group>"; };
+		C383AED6238CD04E0007D323 /* Extension+UITableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UITableView.swift"; sourceTree = "<group>"; };
+		C383AEDA238CD5100007D323 /* en.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = en.plist; sourceTree = "<group>"; };
+		C383AEDC238CD5FC0007D323 /* ja.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = ja.plist; sourceTree = "<group>"; };
+		C383AEE0238CD6820007D323 /* BaseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseModel.swift; sourceTree = "<group>"; };
+		C383AEE3238CD6BE0007D323 /* GetLanguageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetLanguageModel.swift; sourceTree = "<group>"; };
+		C383AEE5238CFC950007D323 /* FaceRecognition.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FaceRecognition.entitlements; sourceTree = "<group>"; };
+		C383AEE7238CFD980007D323 /* WifiInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WifiInfo.swift; sourceTree = "<group>"; };
+		C383AF0D238D1B150007D323 /* FaceRecognitionLocker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FaceRecognitionLocker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C383AF0E238D1B160007D323 /* FaceRecognition copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "FaceRecognition copy-Info.plist"; path = "/Users/administrator/Desktop/Project_Vision/FaceRecognition/FaceRecognition copy-Info.plist"; sourceTree = "<absolute>"; };
+		C383AF10238D1DB90007D323 /* CheckFaceOpenLockVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckFaceOpenLockVC.swift; sourceTree = "<group>"; };
+		C383AF11238D1DB90007D323 /* CheckFaceOpenLockVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CheckFaceOpenLockVC.xib; sourceTree = "<group>"; };
+		C383AF17238D26E30007D323 /* Extension+UIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UIImageView.swift"; sourceTree = "<group>"; };
+		C383AF1A238D2B640007D323 /* Extension+NSDictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+NSDictionary.swift"; sourceTree = "<group>"; };
+		C383AF1D238D2C6D0007D323 /* UploadImageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadImageModel.swift; sourceTree = "<group>"; };
+		E1CAAEF00795BADEE34FEEB7 /* Pods-FaceRecognition.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FaceRecognition.release.xcconfig"; path = "Target Support Files/Pods-FaceRecognition/Pods-FaceRecognition.release.xcconfig"; sourceTree = "<group>"; };
+		F54A8F9C423D43AAC00E4E53 /* Pods_FaceRecognition.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FaceRecognition.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +117,46 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFD54D71640CA24020E55C83 /* Pods_FaceRecognition.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C383AEFD238D1B150007D323 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C383AEFE238D1B150007D323 /* Pods_FaceRecognition.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7FFB22DE3BF314ED0F03DABA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F54A8F9C423D43AAC00E4E53 /* Pods_FaceRecognition.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B1C7704379D570726E98968B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				75B74A1151AC31A765A87FD3 /* Pods-FaceRecognition.debug.xcconfig */,
+				E1CAAEF00795BADEE34FEEB7 /* Pods-FaceRecognition.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		C37861B6238BB01900E7A735 = {
 			isa = PBXGroup;
 			children = (
 				C37861C1238BB01900E7A735 /* FaceRecognition */,
 				C37861C0238BB01900E7A735 /* Products */,
+				B1C7704379D570726E98968B /* Pods */,
+				7FFB22DE3BF314ED0F03DABA /* Frameworks */,
+				C383AF0E238D1B160007D323 /* FaceRecognition copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -49,6 +164,7 @@
 			isa = PBXGroup;
 			children = (
 				C37861BF238BB01900E7A735 /* FaceRecognition.app */,
+				C383AF0D238D1B150007D323 /* FaceRecognitionLocker.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,15 +172,225 @@
 		C37861C1238BB01900E7A735 /* FaceRecognition */ = {
 			isa = PBXGroup;
 			children = (
+				C383AEE5238CFC950007D323 /* FaceRecognition.entitlements */,
+				C383AEDE238CD6370007D323 /* Models */,
+				C383AECB238CCB870007D323 /* Common */,
+				C383AECA238CCB7A0007D323 /* ViewModel */,
+				C37861EB238BD1B700E7A735 /* Views */,
+				C37861DD238BB1E700E7A735 /* Services */,
 				C37861C2238BB01900E7A735 /* AppDelegate.swift */,
-				C37861C4238BB01900E7A735 /* SceneDelegate.swift */,
-				C37861C6238BB01900E7A735 /* ViewController.swift */,
-				C37861C8238BB01900E7A735 /* Main.storyboard */,
+				C378621D238BE54300E7A735 /* Main.storyboard */,
+				C3786219238BE4FD00E7A735 /* LaunchScreen.storyboard */,
 				C37861CB238BB01B00E7A735 /* Assets.xcassets */,
-				C37861CD238BB01B00E7A735 /* LaunchScreen.storyboard */,
 				C37861D0238BB01B00E7A735 /* Info.plist */,
 			);
 			path = FaceRecognition;
+			sourceTree = "<group>";
+		};
+		C37861DA238BB19A00E7A735 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C37861DB238BB1BC00E7A735 /* Extension+UIImage.swift */,
+				C383AEC8238CC5F40007D323 /* Extension+UIViewController.swift */,
+				C383AED6238CD04E0007D323 /* Extension+UITableView.swift */,
+				C383AF17238D26E30007D323 /* Extension+UIImageView.swift */,
+				C383AF1A238D2B640007D323 /* Extension+NSDictionary.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		C37861DD238BB1E700E7A735 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				C37861DF238BB23800E7A735 /* ServiceConfig.swift */,
+				C37861E1238BB25E00E7A735 /* ServiceManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		C37861E7238BBA3A00E7A735 /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				C37861E8238BBA4600E7A735 /* ImagePicker */,
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
+		C37861E8238BBA4600E7A735 /* ImagePicker */ = {
+			isa = PBXGroup;
+			children = (
+				C37861E9238BBA5600E7A735 /* ImagePicker.swift */,
+			);
+			path = ImagePicker;
+			sourceTree = "<group>";
+		};
+		C37861EB238BD1B700E7A735 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C383AED5238CCE880007D323 /* ViewControllers */,
+				C383AECF238CCDFF0007D323 /* Cells */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C37861EC238BD1C500E7A735 /* RegisterFaceVC */ = {
+			isa = PBXGroup;
+			children = (
+				C37861D6238BB16100E7A735 /* RegisterFaceViewController.swift */,
+				C3786211238BE4D500E7A735 /* RegisterFaceViewController.xib */,
+			);
+			path = RegisterFaceVC;
+			sourceTree = "<group>";
+		};
+		C37861ED238BD22300E7A735 /* LoginVC */ = {
+			isa = PBXGroup;
+			children = (
+				C37861EE238BD23600E7A735 /* LoginVC.swift */,
+				C3786215238BE4E700E7A735 /* LoginVC.xib */,
+			);
+			path = LoginVC;
+			sourceTree = "<group>";
+		};
+		C37861F2238BD23E00E7A735 /* BaseVC */ = {
+			isa = PBXGroup;
+			children = (
+				C37861F3238BD24E00E7A735 /* BaseViewController.swift */,
+			);
+			path = BaseVC;
+			sourceTree = "<group>";
+		};
+		C37861F5238BD2DC00E7A735 /* ListUserVC */ = {
+			isa = PBXGroup;
+			children = (
+				C37861F6238BD2F000E7A735 /* ListUserViewController.swift */,
+				C3786217238BE4F500E7A735 /* ListUserViewController.xib */,
+			);
+			path = ListUserVC;
+			sourceTree = "<group>";
+		};
+		C383AECA238CCB7A0007D323 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C383AF1C238D2C4C0007D323 /* UploadImageModel */,
+				C383AECC238CCC680007D323 /* ListUserViewModel */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		C383AECB238CCB870007D323 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				C383AEE6238CFD790007D323 /* GetWifi */,
+				C383AED8238CD2070007D323 /* Language */,
+				C37861E7238BBA3A00E7A735 /* Libs */,
+				C37861DA238BB19A00E7A735 /* Extensions */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		C383AECC238CCC680007D323 /* ListUserViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C383AECD238CCC7E0007D323 /* ListUserViewModel.swift */,
+			);
+			path = ListUserViewModel;
+			sourceTree = "<group>";
+		};
+		C383AECF238CCDFF0007D323 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				C383AED4238CCE630007D323 /* UserTableViewCell */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		C383AED4238CCE630007D323 /* UserTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				C383AED0238CCE500007D323 /* UserTableViewCell.swift */,
+				C383AED1238CCE500007D323 /* UserTableViewCell.xib */,
+			);
+			path = UserTableViewCell;
+			sourceTree = "<group>";
+		};
+		C383AED5238CCE880007D323 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				C383AF0F238D1D940007D323 /* CheckFaceOpenLock */,
+				C37861C6238BB01900E7A735 /* ViewController.swift */,
+				C37861F5238BD2DC00E7A735 /* ListUserVC */,
+				C37861F2238BD23E00E7A735 /* BaseVC */,
+				C37861ED238BD22300E7A735 /* LoginVC */,
+				C37861EC238BD1C500E7A735 /* RegisterFaceVC */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		C383AED8238CD2070007D323 /* Language */ = {
+			isa = PBXGroup;
+			children = (
+				C383AED9238CD2190007D323 /* LanguageFile */,
+			);
+			path = Language;
+			sourceTree = "<group>";
+		};
+		C383AED9238CD2190007D323 /* LanguageFile */ = {
+			isa = PBXGroup;
+			children = (
+				C383AEDA238CD5100007D323 /* en.plist */,
+				C383AEDC238CD5FC0007D323 /* ja.plist */,
+			);
+			path = LanguageFile;
+			sourceTree = "<group>";
+		};
+		C383AEDE238CD6370007D323 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C383AEE2238CD6A60007D323 /* GetFileModelLocal */,
+				C383AEDF238CD6700007D323 /* BaseModel */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C383AEDF238CD6700007D323 /* BaseModel */ = {
+			isa = PBXGroup;
+			children = (
+				C383AEE0238CD6820007D323 /* BaseModel.swift */,
+			);
+			path = BaseModel;
+			sourceTree = "<group>";
+		};
+		C383AEE2238CD6A60007D323 /* GetFileModelLocal */ = {
+			isa = PBXGroup;
+			children = (
+				C383AEE3238CD6BE0007D323 /* GetLanguageModel.swift */,
+			);
+			path = GetFileModelLocal;
+			sourceTree = "<group>";
+		};
+		C383AEE6238CFD790007D323 /* GetWifi */ = {
+			isa = PBXGroup;
+			children = (
+				C383AEE7238CFD980007D323 /* WifiInfo.swift */,
+			);
+			path = GetWifi;
+			sourceTree = "<group>";
+		};
+		C383AF0F238D1D940007D323 /* CheckFaceOpenLock */ = {
+			isa = PBXGroup;
+			children = (
+				C383AF10238D1DB90007D323 /* CheckFaceOpenLockVC.swift */,
+				C383AF11238D1DB90007D323 /* CheckFaceOpenLockVC.xib */,
+			);
+			path = CheckFaceOpenLock;
+			sourceTree = "<group>";
+		};
+		C383AF1C238D2C4C0007D323 /* UploadImageModel */ = {
+			isa = PBXGroup;
+			children = (
+				C383AF1D238D2C6D0007D323 /* UploadImageModel.swift */,
+			);
+			path = UploadImageModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +400,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C37861D3238BB01B00E7A735 /* Build configuration list for PBXNativeTarget "FaceRecognition" */;
 			buildPhases = (
+				7ED04329AF7B2FD19A3E3E62 /* [CP] Check Pods Manifest.lock */,
 				C37861BB238BB01900E7A735 /* Sources */,
 				C37861BC238BB01900E7A735 /* Frameworks */,
 				C37861BD238BB01900E7A735 /* Resources */,
+				9F904D9B4543E5BB07CAA866 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -85,6 +413,25 @@
 			name = FaceRecognition;
 			productName = FaceRecognition;
 			productReference = C37861BF238BB01900E7A735 /* FaceRecognition.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C383AEE9238D1B150007D323 /* FaceRecognitionLocker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C383AF0A238D1B150007D323 /* Build configuration list for PBXNativeTarget "FaceRecognitionLocker" */;
+			buildPhases = (
+				C383AEEA238D1B150007D323 /* [CP] Check Pods Manifest.lock */,
+				C383AEEB238D1B150007D323 /* Sources */,
+				C383AEFD238D1B150007D323 /* Frameworks */,
+				C383AEFF238D1B150007D323 /* Resources */,
+				C383AF09238D1B150007D323 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FaceRecognitionLocker;
+			productName = FaceRecognition;
+			productReference = C383AF0D238D1B150007D323 /* FaceRecognitionLocker.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -116,6 +463,7 @@
 			projectRoot = "";
 			targets = (
 				C37861BE238BB01900E7A735 /* FaceRecognition */,
+				C383AEE9238D1B150007D323 /* FaceRecognitionLocker */,
 			);
 		};
 /* End PBXProject section */
@@ -125,42 +473,182 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C37861CF238BB01B00E7A735 /* LaunchScreen.storyboard in Resources */,
+				C378621B238BE54300E7A735 /* Main.storyboard in Resources */,
+				C3786212238BE4D500E7A735 /* RegisterFaceViewController.xib in Resources */,
+				C3786216238BE4E700E7A735 /* LoginVC.xib in Resources */,
+				C383AED3238CCE500007D323 /* UserTableViewCell.xib in Resources */,
+				C378621A238BE4FD00E7A735 /* LaunchScreen.storyboard in Resources */,
 				C37861CC238BB01B00E7A735 /* Assets.xcassets in Resources */,
-				C37861CA238BB01900E7A735 /* Main.storyboard in Resources */,
+				C3786218238BE4F500E7A735 /* ListUserViewController.xib in Resources */,
+				C383AEDB238CD5100007D323 /* en.plist in Resources */,
+				C383AEDD238CD5FC0007D323 /* ja.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C383AEFF238D1B150007D323 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C383AF00238D1B150007D323 /* Main.storyboard in Resources */,
+				C383AF01238D1B150007D323 /* RegisterFaceViewController.xib in Resources */,
+				C383AF02238D1B150007D323 /* LoginVC.xib in Resources */,
+				C383AF03238D1B150007D323 /* UserTableViewCell.xib in Resources */,
+				C383AF04238D1B150007D323 /* LaunchScreen.storyboard in Resources */,
+				C383AF05238D1B150007D323 /* Assets.xcassets in Resources */,
+				C383AF15238D1F590007D323 /* CheckFaceOpenLockVC.xib in Resources */,
+				C383AF07238D1B150007D323 /* en.plist in Resources */,
+				C383AF08238D1B150007D323 /* ja.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7ED04329AF7B2FD19A3E3E62 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FaceRecognition-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F904D9B4543E5BB07CAA866 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FaceRecognition/Pods-FaceRecognition-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FaceRecognition/Pods-FaceRecognition-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FaceRecognition/Pods-FaceRecognition-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C383AEEA238D1B150007D323 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FaceRecognition-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C383AF09238D1B150007D323 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FaceRecognition/Pods-FaceRecognition-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FaceRecognition/Pods-FaceRecognition-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FaceRecognition/Pods-FaceRecognition-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C37861BB238BB01900E7A735 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C383AEE8238CFD980007D323 /* WifiInfo.swift in Sources */,
+				C37861D8238BB16100E7A735 /* RegisterFaceViewController.swift in Sources */,
+				C383AED7238CD04E0007D323 /* Extension+UITableView.swift in Sources */,
+				C37861E0238BB23800E7A735 /* ServiceConfig.swift in Sources */,
+				C383AED2238CCE500007D323 /* UserTableViewCell.swift in Sources */,
+				C383AECE238CCC7E0007D323 /* ListUserViewModel.swift in Sources */,
+				C383AF18238D26E30007D323 /* Extension+UIImageView.swift in Sources */,
+				C37861F0238BD23600E7A735 /* LoginVC.swift in Sources */,
+				C383AEE1238CD6820007D323 /* BaseModel.swift in Sources */,
+				C37861DC238BB1BC00E7A735 /* Extension+UIImage.swift in Sources */,
+				C37861EA238BBA5600E7A735 /* ImagePicker.swift in Sources */,
+				C37861F4238BD24E00E7A735 /* BaseViewController.swift in Sources */,
+				C383AF16238D1FA50007D323 /* CheckFaceOpenLockVC.swift in Sources */,
+				C383AF1E238D2C6D0007D323 /* UploadImageModel.swift in Sources */,
 				C37861C7238BB01900E7A735 /* ViewController.swift in Sources */,
+				C383AEC9238CC5F40007D323 /* Extension+UIViewController.swift in Sources */,
 				C37861C3238BB01900E7A735 /* AppDelegate.swift in Sources */,
-				C37861C5238BB01900E7A735 /* SceneDelegate.swift in Sources */,
+				C37861E2238BB25E00E7A735 /* ServiceManager.swift in Sources */,
+				C383AEE4238CD6BE0007D323 /* GetLanguageModel.swift in Sources */,
+				C383AF1B238D2B640007D323 /* Extension+NSDictionary.swift in Sources */,
+				C37861F8238BD2F000E7A735 /* ListUserViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C383AEEB238D1B150007D323 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C383AEEC238D1B150007D323 /* WifiInfo.swift in Sources */,
+				C383AEED238D1B150007D323 /* RegisterFaceViewController.swift in Sources */,
+				C383AEEE238D1B150007D323 /* Extension+UITableView.swift in Sources */,
+				C383AEEF238D1B150007D323 /* ServiceConfig.swift in Sources */,
+				C383AF19238D277F0007D323 /* Extension+UIImageView.swift in Sources */,
+				C383AEF0238D1B150007D323 /* UserTableViewCell.swift in Sources */,
+				C383AEF1238D1B150007D323 /* ListUserViewModel.swift in Sources */,
+				C383AEF2238D1B150007D323 /* LoginVC.swift in Sources */,
+				C383AEF3238D1B150007D323 /* BaseModel.swift in Sources */,
+				C383AEF4238D1B150007D323 /* Extension+UIImage.swift in Sources */,
+				C383AEF5238D1B150007D323 /* ImagePicker.swift in Sources */,
+				C383AEF6238D1B150007D323 /* BaseViewController.swift in Sources */,
+				C383AF1F238D2C6D0007D323 /* UploadImageModel.swift in Sources */,
+				C383AF14238D1F590007D323 /* CheckFaceOpenLockVC.swift in Sources */,
+				C383AEF7238D1B150007D323 /* ViewController.swift in Sources */,
+				C383AEF8238D1B150007D323 /* Extension+UIViewController.swift in Sources */,
+				C383AEF9238D1B150007D323 /* AppDelegate.swift in Sources */,
+				C383AEFA238D1B150007D323 /* ServiceManager.swift in Sources */,
+				C383AF20238D2F750007D323 /* Extension+NSDictionary.swift in Sources */,
+				C383AEFB238D1B150007D323 /* GetLanguageModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		C37861C8238BB01900E7A735 /* Main.storyboard */ = {
+		C378621D238BE54300E7A735 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				C37861C9238BB01900E7A735 /* Base */,
+				C378621C238BE54300E7A735 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		C37861CD238BB01B00E7A735 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C37861CE238BB01B00E7A735 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -170,6 +658,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -230,6 +719,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -282,14 +772,19 @@
 		};
 		C37861D4238BB01B00E7A735 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75B74A1151AC31A765A87FD3 /* Pods-FaceRecognition.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FaceRecognition/FaceRecognition.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P86Z69GYA2;
 				INFOPLIST_FILE = FaceRecognition/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -D COCOAPODS -D FaceRegister";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vision.FaceRecognition;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -299,14 +794,63 @@
 		};
 		C37861D5238BB01B00E7A735 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1CAAEF00795BADEE34FEEB7 /* Pods-FaceRecognition.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FaceRecognition/FaceRecognition.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P86Z69GYA2;
 				INFOPLIST_FILE = FaceRecognition/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -D COCOAPODS -D FaceRegister";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vision.FaceRecognition;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C383AF0B238D1B150007D323 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75B74A1151AC31A765A87FD3 /* Pods-FaceRecognition.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FaceRecognition/FaceRecognition.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P86Z69GYA2;
+				INFOPLIST_FILE = "FaceRecognition copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -D COCOAPODS -D FaceLock";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vision.FaceRecognition;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C383AF0C238D1B150007D323 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1CAAEF00795BADEE34FEEB7 /* Pods-FaceRecognition.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FaceRecognition/FaceRecognition.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P86Z69GYA2;
+				INFOPLIST_FILE = "FaceRecognition copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -D COCOAPODS -D FaceLock";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vision.FaceRecognition;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -331,6 +875,15 @@
 			buildConfigurations = (
 				C37861D4238BB01B00E7A735 /* Debug */,
 				C37861D5238BB01B00E7A735 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C383AF0A238D1B150007D323 /* Build configuration list for PBXNativeTarget "FaceRecognitionLocker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C383AF0B238D1B150007D323 /* Debug */,
+				C383AF0C238D1B150007D323 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
+  <file original="FaceRecognition/Base.lproj/Main.storyboard" source-language="en" target-language="en" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.2.1" build-num="11B500"/>
+    </header>
+    <body>
+      <trans-unit id="guc-GT-tco.normalTitle" xml:space="preserve">
+        <source>Button</source>
+        <target>Button</target>
+        <note>Class = "UIButton"; normalTitle = "Button"; ObjectID = "guc-GT-tco";</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="FaceRecognition/en.lproj/InfoPlist.strings" source-language="en" target-language="en" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.2.1" build-num="11B500"/>
+    </header>
+    <body>
+      <trans-unit id="CFBundleName" xml:space="preserve">
+        <source>FaceRecognition</source>
+        <target>FaceRecognition</target>
+        <note>Bundle name</note>
+      </trans-unit>
+      <trans-unit id="NSCameraUsageDescription" xml:space="preserve">
+        <source>This app wants to take pictures.</source>
+        <target>This app wants to take pictures.</target>
+        <note>Privacy - Camera Usage Description</note>
+      </trans-unit>
+      <trans-unit id="NSPhotoLibraryUsageDescription" xml:space="preserve">
+        <source>This app wants to use your photos.</source>
+        <target>This app wants to use your photos.</target>
+        <note>Privacy - Photo Library Usage Description</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="FaceRecognition/Views/ListUserVC/Base.lproj/ListUserViewController.xib" source-language="en" target-language="en" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.2.1" build-num="11B500"/>
+    </header>
+    <body>
+      <trans-unit id="AY0-BV-70U.normalTitle" xml:space="preserve">
+        <source>Button</source>
+        <target>Button</target>
+        <note>Class = "UIButton"; normalTitle = "Button"; ObjectID = "AY0-BV-70U";</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="FaceRecognition/Views/LoginVC/Base.lproj/LoginVC.xib" source-language="en" target-language="en" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.2.1" build-num="11B500"/>
+    </header>
+    <body>
+      <trans-unit id="mvG-yl-Ukg.normalTitle" xml:space="preserve">
+        <source>Button</source>
+        <target>Button</target>
+        <note>Class = "UIButton"; normalTitle = "Button"; ObjectID = "mvG-yl-Ukg";</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="FaceRecognition/Views/RegisterFaceVC/Base.lproj/RegisterFaceViewController.xib" source-language="en" target-language="en" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.2.1" build-num="11B500"/>
+    </header>
+    <body>
+      <trans-unit id="LQe-pY-cPv.placeholder" xml:space="preserve">
+        <source>Full name (氏名)</source>
+        <target>Full name (氏名)</target>
+        <note>Class = "UITextField"; placeholder = "Full name (氏名)"; ObjectID = "LQe-pY-cPv";</note>
+      </trans-unit>
+      <trans-unit id="aOg-Su-KH0.normalTitle" xml:space="preserve">
+        <source>Register    登録</source>
+        <target>Register    登録</target>
+        <note>Class = "UIButton"; normalTitle = "Register    登録"; ObjectID = "aOg-Su-KH0";</note>
+      </trans-unit>
+      <trans-unit id="eRa-tn-WeL.normalTitle" xml:space="preserve">
+        <source>&lt; Back</source>
+        <target>&lt; Back</target>
+        <note>Class = "UIButton"; normalTitle = "&lt; Back"; ObjectID = "eRa-tn-WeL";</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
